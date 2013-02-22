@@ -1,0 +1,23 @@
+
+RDP客户端安装说明
+
+1. 安装
+   将从web上下载或其他途径得到的安装包（sag.rar）直接解压C盘的根目录，解压后目录中的文件如下：
+   c:\sag\mfc80u.dll
+   	      msvcp80.dll
+   	      msvcr80.dll
+   	      RdpClient.exe
+   	      安装说明.txt
+
+2. 配置IE安全级别
+   a. 将要访问的网站放入“Intranet区域”
+      通过查看“IE->工具->Internet 选项->安全->本地Intranet->站点->高级”看所要访问的web站点是否
+      属于“Intranet区域”。如果不是，可以在把要访问的web站点的url添加进去
+      
+   b. 配置Intranet区域的安全级别
+      通过查看“IE->工具->Internet 选项->安全->本地Intranet->自定义级别”，查找到“ActiveX 控件和
+      插件”段落，将其中的“对没有标记为安全的ActiveX控件进行初始化和脚本运行”安全选项选为“提示”，
+      将其中的“运行ActiveX 控件和插件”安全选项选为“启用”
+   
+   备注：如果分不清所访问网站是属于“Internet 区域”还是属于“Intranet 区域”，可以将两个区域的安全
+         都按照步骤b配置。
